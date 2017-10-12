@@ -3,7 +3,8 @@ html, body {
 		background-color: PowderBlue;
 		margin: 0px;
 		padding: 0;
-	}
+}
+
 /*--header--*/
 header {
 	width: 100%;
@@ -19,22 +20,25 @@ header {
 	font-family: 'Kurale', serif;
 	font-size: 30px; 
 	text-align: center;
-		}
+}
+
 /*--naslov i paragraf--*/
 h1 {
 	font-size: 30px;
 	font-family: 'Kurale', serif;
 	text-align: center;
 }
+
 p {
 	font-size: 25px;
 	font-family: 'Cormorant Infant', serif;
 	text-align: center;
-	}
+}
+
 /*--slike životinja--*/
 /*--img {
 	width: 100%;
-	} --*/
+} --*/
 
 /*--deo sa flip-flop boxevima--*/
 .flip3D { width: 340px; height: 300px; margin: 10px; margin-left: 75px; float: left; }
@@ -44,20 +48,20 @@ p {
 			background: DodgerBlue; width: 340px; height: 300px; border-radius: 7px;
 			backface-visibility: hidden;
 			transition: transform .55s linear 0s;
-		}
+}
 		.flip3D > .back {
 			position: absolute;
 			transform: perspective(600px) rotateY(180deg);
 			background: #0066cc; width: 340px; height: 300px; border-radius: 7px;
 			backface-visibility: hidden;
 			transition: transform .55s linear 0s;
-		}
+}
 		.flip3D:hover > .front {
 			transform: perspective(600px) rotateY(-180deg);
-		}
+}
 		.flip3D:hover > .back {
 			transform: perspective(600px) rotateY(0deg);
-		}
+}
 		
 
 /*---footer---*/
@@ -75,10 +79,23 @@ footer {
 	font-family: 'Kurale', serif;
 	font-size: 15px; 
 	text-align: center;
-	}
+}
+
 footer img: {
 	width: 48px;
 	height: 48px;
-  	}
+}
 
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
 
