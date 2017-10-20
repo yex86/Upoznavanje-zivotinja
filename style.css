@@ -28,7 +28,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 35px;
 }
 
 h2{
@@ -44,7 +44,8 @@ p {
 
 /*--slike životinja--*/
 .animalimg {
-	width: 100%;
+	/*width: 100%;*/
+	width: 350px;
 	height: 300px;
 }
 
