@@ -22,22 +22,30 @@ header {
 }
 
 /*--naslov i paragraf--*/
-h1 {
-	font-size: 30px;
+h1, h2 {
 	font-family: 'Kurale', serif;
 	text-align: center;
 }
 
-p {
+h1 {
+	font-size: 30px;
+}
+
+h2{
 	font-size: 25px;
+}
+
+p {
+	font-size: 23px;
 	font-family: 'Cormorant Infant', serif;
 	text-align: center;
+	padding: 10px;
 }
 
 /*--slike životinja--*/
 .animalimg {
 	width: 100%;
-	height: 300px:
+	height: 300px;
 }
 
 /*--deo sa flip-flop boxevima--*/
