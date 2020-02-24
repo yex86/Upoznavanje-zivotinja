@@ -1,1 +1,2 @@
-novi fajl sa github-a
+novi fajl sa GitHub-a
+novi red
