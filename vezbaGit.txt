@@ -1,0 +1,2 @@
+vezbanje u git bash-u (terminal za github)
+na isti nacin bi trebalo da radi i obicna konzola
